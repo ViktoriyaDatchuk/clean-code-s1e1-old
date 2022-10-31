@@ -1,18 +1,22 @@
 /* Basic Style */
+
 .body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
@@ -24,29 +28,36 @@
   }
   
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .add-item__text {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .add-item__wrapper {
   display: flex;
 }
+
 .list {
   margin:0;
   padding: 0px;
 }
+
 .item, .title {
   list-style:none;
 }
+
 input,button{
   outline:none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -56,10 +67,13 @@ input,button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .title {
   color: #333;
   font-weight: 700;
@@ -69,6 +83,7 @@ input,button{
   margin: 0;
   text-transform: uppercase;
 }
+
 .add-item__text, .item__text {
   margin: 0;
   font-size: 18px;
@@ -81,20 +96,24 @@ input,button{
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .add-item__text:focus, .item__text:focus {
   color: #333;
 }
 
 /* New Task */
+
 .add-item__title {
   display: block;
   margin: 0 0 20px;
 }
+
 .add-item__text {
   width: 318px;
 }
 
 /* Task list */
+
 .list__item {
   overflow: hidden;
   padding: 20px 0;
@@ -104,6 +123,7 @@ input,button{
   justify-content: space-between;
   align-items: center;
 }
+
 .list__item > * {
   vertical-align: middle;
 }
@@ -111,32 +131,38 @@ input,button{
 .item__checkbox {
   margin: 0 10px;
 }
+
 .item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .item__text {
   width: 226px;
   display:none
 }
+
 .item__img-delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .item__img-delete:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .completed__list .item__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 .list__item_edit-mode .item__text {
   display:inline-block;
   width:224px
