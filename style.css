@@ -50,11 +50,13 @@
   padding: 0px;
 }
 
-.item, .title {
+.item, 
+.title {
   list-style: none;
 }
 
-input,button{
+input,
+button{
   outline: none;
 }
 
@@ -84,7 +86,8 @@ input,button{
   text-transform: uppercase;
 }
 
-.add-item__text, .item__text {
+.add-item__text, 
+.item__text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -97,7 +100,8 @@ input,button{
   color: #888;
 }
 
-.add-item__text:focus, .item__text:focus {
+.add-item__text:focus, 
+.item__text:focus {
   color: #333;
 }
 
